@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/admin/home/home.component';
 import { LoginComponent } from './pages/admin/login/login.component';
 import { MapComponent } from './pages/admin/map/map.component';
 import { FlowUiComponent } from './pages/admin/flow-ui/flow-ui.component';
+import { PageNotFoundComponent } from './pages/admin/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FlowUiComponent } from './pages/admin/flow-ui/flow-ui.component';
     HomeComponent,
     LoginComponent,
     MapComponent,
-    FlowUiComponent
+    FlowUiComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
