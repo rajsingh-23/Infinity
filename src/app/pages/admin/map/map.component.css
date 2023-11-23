@@ -1,5 +1,5 @@
 * {
-    margin: 10px;
+    margin: 0;
     padding: 0;
 }
 
@@ -12,9 +12,18 @@ svg path {
     stroke: white;
     stroke-width: .25;
 }
+svg{
+    width: 100%;
+    height: 100%;
+    scale: 0.9;
+}
 
 svg path:hover {
     fill: azure;
     transition: 0.6s;
     cursor: pointer;
+}
+
+div {
+    height: 600px;
 }
