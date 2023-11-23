@@ -10,6 +10,9 @@ import { LoginComponent } from './pages/admin/login/login.component';
 import { MapComponent } from './pages/admin/map/map.component';
 import { FlowUiComponent } from './pages/admin/flow-ui/flow-ui.component';
 import { PageNotFoundComponent } from './pages/admin/page-not-found/page-not-found.component';
+import { NetworkElementDashboardComponent } from './pages/admin/network-element-dashboard/network-element-dashboard.component';
+import { MediationSystemDashboardComponent } from './pages/admin/mediation-system-dashboard/mediation-system-dashboard.component';
+import { BillingSystemDashboardComponent } from './pages/admin/billing-system-dashboard/billing-system-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { PageNotFoundComponent } from './pages/admin/page-not-found/page-not-fou
     LoginComponent,
     MapComponent,
     FlowUiComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NetworkElementDashboardComponent,
+    MediationSystemDashboardComponent,
+    BillingSystemDashboardComponent
   ],
   imports: [
     BrowserModule,
