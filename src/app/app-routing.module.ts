@@ -5,6 +5,7 @@ import { LoginComponent } from './pages/admin/login/login.component';
 import { MapComponent } from './pages/admin/map/map.component';
 import { FlowUiComponent } from './pages/admin/flow-ui/flow-ui.component';
 import { PageNotFoundComponent } from './pages/admin/page-not-found/page-not-found.component';
+import { NetworkElementDashboardComponent } from './pages/admin/network-element-dashboard/network-element-dashboard.component';
 
 const routes: Routes = [
   {path: '', redirectTo: "home", pathMatch: "full"},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: "login", component: LoginComponent},
   {path: "map", component: MapComponent},
   {path: "flow-ui", component: FlowUiComponent},
+  {path: "network-element1", component: NetworkElementDashboardComponent},
   {path: "**", component: PageNotFoundComponent}
 ];
 

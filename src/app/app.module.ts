@@ -13,6 +13,9 @@ import { PageNotFoundComponent } from './pages/admin/page-not-found/page-not-fou
 import { NetworkElementDashboardComponent } from './pages/admin/network-element-dashboard/network-element-dashboard.component';
 import { MediationSystemDashboardComponent } from './pages/admin/mediation-system-dashboard/mediation-system-dashboard.component';
 import { BillingSystemDashboardComponent } from './pages/admin/billing-system-dashboard/billing-system-dashboard.component';
+import { HeaderComponent } from './pages/admin/network-element-dashboard/header/header.component';
+import { MainComponent } from './pages/admin/network-element-dashboard/main/main.component';
+import { FooterComponent } from './pages/admin/network-element-dashboard/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { BillingSystemDashboardComponent } from './pages/admin/billing-system-da
     PageNotFoundComponent,
     NetworkElementDashboardComponent,
     MediationSystemDashboardComponent,
-    BillingSystemDashboardComponent
+    BillingSystemDashboardComponent,
+    HeaderComponent,
+    MainComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
